@@ -1,7 +1,7 @@
 const { Client, MessageAttachment } = require('discord.js');
 
 const client = new Client();
-const token = 'ODE2MDMyMzQwODY1NzEyMjA5.YD1DVw.NzBbXkGYVmqTNXiZlXx9VV2U74I';
+const token = process.env.TOKEN;
 
 
 client.on('ready', () => {
