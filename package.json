@@ -9,6 +9,7 @@
   "author": "Laura",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "unirest": "^0.6.0"
   }
 }
